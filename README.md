@@ -1,39 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Zoe Griffiths Art Page
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+View the live project here.
 
 ---
 
-Happy coding!
+This is the main marketing website for an artist. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
+
+# User Experience (UX)
+
+## User stories
+
+### First Time Visitor Goals
+
+- **As a First Time Visitor**, I want to easily understand the main purpose of the site and learn more about the artist and their work.
+- **As a First Time Visitor**, I want to be able to easily navigate throughout the site to find content and view the artist's work.
+- **As a First Time Visitor**, I want to find testimonials or reviews about the artist's work to ascertain their reputation. I also want to locate their social media links to explore more artwork and engage with the artist's community.
+
+### Returning Visitor Goals
+
+- **As a Returning Visitor**, I want to explore the gallery section to view new artwork.
+- **As a Returning Visitor**, I want to contact the artist for commissioning artwork or ask questions.
+- **As a Returning Visitor**, I want to find links to the artist's social media platforms to follow their updates and new artworks.
+
+### Frequent User Goals
+
+- **As a Frequent User**, I want to check for updates in the gallery section for any newly added artwork.
+- **As a Frequent User**, I want to read blog posts or insights shared by the artist about their creative process.
+- **As a Frequent User**, I want to sign up for the artist's newsletter to recieve updates on exhibitions, events, or new artwork releases.
+
+## Design
+
+### Colour Scheme
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### Typography
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### Imagery
+
+Visuals play a crucial role, particularly showcasing artworks in high quality to captivate the audience. Emphasis is on showcasing a diverse range of art pieces through the gallery section.
+
+## Wireframes
+
+- [Home Page Wireframe - View](link)
+- [Mobile Wireframe - View](link)
+- [Contact Us Page Wireframe - View](link)
+
+## Features
+
+- Responsive design adaptable to various screen sizes.
+- Interactive gallery showcasing artworks.
+- Social media intergration to connect with the artist's community.
+
+## Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS
+
+### Frameworks, Libraries & Programs Used
+
+## Testing
+
+- W3C Markup Validator - [Results](link)
+- W3C CSS Validator - [Results](link)
+
+## Testing User Stories from User Experience (UX) Section
+
+### First Time Visitor Goals
+
+- (Content)
+
+### Returning Visitor Goals
+
+- (Content)
+
+### Frequent User Goals
+
+- (Content)
+
+## Further Testing
+
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- (More details)
+
+## Known Bugs
+
+- (Content)
+
+## Deployment
+
+- GitHub Pages
+- Forking the GitHub Repository
+- Making a Local Clone
+
+## Credits
+
+### Code
+
+- The full-screen hero image code came from this StackOverflow post.
+- Bootstrap4
+
+### Content
+
+- All content was written by the developer.
+- Psychological properties of colours text in the README.md was found [here](link).
+
+### Media
+
+- All Images were created by the developer.
+
+## Acknowledgements
