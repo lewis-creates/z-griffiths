@@ -1,0 +1,65 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;600&display=swap');
+
+/* Body Styling */
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #3D3D3E;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header general styling */
+header {
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #BFD7EA;
+    background-color: #3D3D3E;
+    padding: 1rem 0;
+}
+
+/* Site title styling */
+.navbar-brand {
+    color: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation menu styling */
+.navbar-nav {
+    margin-right: auto;
+}
+
+/* Navigation menu links styling */
+.nav-link {
+    color: #BFD7EA;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Navigation menu links interactivity styling */
+.nav-link:hover {
+    background-color: #262a2ea4;
+}
+
+/* Styling Navigation Links to show which one is active */
+.nav-item.active .nav-link {
+    background-color: #67747ea4;
+}
+
+/* Footer styling */
+footer {
+    color: #BFD7EA;
+    text-align: center;
+    min-height: 40px;
+    padding: 1rem 0;
+    background-color: #3D3D3E;
+}
+
+/* Media queries (if needed) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
