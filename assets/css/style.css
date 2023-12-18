@@ -5,6 +5,23 @@
     font-size: 32px;
 }
 
+/* Navbar and Footer customization */
+/* Navbar customization */
+.navbar,
+.navbar-dark .navbar-nav .nav-link {
+    background-color: #d3d3d3;
+    color: black;
+
+}
+
+/* Footer customization */
+.footer {
+    background-color: #d3d3d3;
+
+    color: black;
+
+}
+
 /* Navbar hover effect */
 .navbar-nav .nav-item .nav-link {
     transition: color 0.3s ease-in-out;
@@ -41,45 +58,38 @@
 }
 
 /* Bio container styling */
-.bio-part-1 {
-    background-color: #F5F5F5;
-    color: black;
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 2px;
-    word-spacing: 6px;
-    line-height: 30px;
-}
-
+/* Remove border and set background color for bio sections */
+.bio-part-1,
 .bio-part-2 {
     background-color: #F5F5F5;
+    /* Very light grey */
     color: black;
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 10px;
+    width: 100%;
+    /* Fill the whole width of the screen */
+    padding: 20px;
+    /* Adjust the padding as needed */
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
     word-spacing: 6px;
     line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+/* Remove the border */
+.bio-part-1,
+.bio-part-2 {
+    border: none;
+    border-radius: 0;
+    /* Remove border-radius if not needed */
+}
+
 
 /* Body background */
 body {
-    background-color: #343a40;
+    background-color: #ffff;
 }
 
 /* Teaser images container */
@@ -92,7 +102,7 @@ body {
 /* Individual teaser images */
 .image-container img {
     width: 15%;
-    border: 15px solid white;
+    border: 15px solid #d8b9d3;
     border-radius: 5px;
 }
 
@@ -153,4 +163,42 @@ body {
 
 .fa-copyright {
     margin-right: 5px;
+}
+
+/* Navbar and Footer customization */
+/* Navbar customization */
+.navbar {
+    background-color: #d3d3d3;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+/* Footer customization */
+.footer {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+/* Navbar customization */
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand,
+.navbar.navbar-expand-lg.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: black;
+    /* Set the color for navbar links */
+}
+
+.navbar.navbar-expand-lg.navbar-dark {
+    background-color: #f8f9fa !important;
+    /* Very light grey color for the navbar */
+}
+
+/* Footer customization */
+.footer {
+    background-color: #f8f9fa !important;
+    /* Very light grey color for the footer */
+    color: black;
+    /* Set the color for footer text */
 }
