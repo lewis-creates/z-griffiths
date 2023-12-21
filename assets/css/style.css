@@ -2,24 +2,24 @@
 .navbar-brand,
 .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 40px;
+}
+
+.navbar-brand.increased-font-size {
+    font-size: 40px;
+    /* Your preferred font size */
 }
 
 /* Navbar and Footer customization */
-/* Navbar customization */
 .navbar,
 .navbar-dark .navbar-nav .nav-link {
     background-color: #d3d3d3;
     color: black;
-
 }
 
-/* Footer customization */
 .footer {
     background-color: #d3d3d3;
-
     color: black;
-
 }
 
 /* Navbar hover effect */
@@ -31,7 +31,6 @@
     color: #ff8c00;
 }
 
-/* Cover image container styling */
 .cover-image {
     height: 250px;
     width: 100%;
@@ -39,14 +38,12 @@
     position: relative;
 }
 
-/* Container image styling */
 .cover-image img {
     width: 100%;
     height: auto;
     animation: scrollImage 10s linear infinite;
 }
 
-/* Keyframes for image scrolling */
 @keyframes scrollImage {
     0% {
         transform: translateY(0);
@@ -58,16 +55,12 @@
 }
 
 /* Bio container styling */
-/* Remove border and set background color for bio sections */
 .bio-part-1,
 .bio-part-2 {
     background-color: #F5F5F5;
-    /* Very light grey */
     color: black;
     width: 100%;
-    /* Fill the whole width of the screen */
     padding: 20px;
-    /* Adjust the padding as needed */
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -76,20 +69,8 @@
     line-height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-/* Remove the border */
-.bio-part-1,
-.bio-part-2 {
     border: none;
     border-radius: 0;
-    /* Remove border-radius if not needed */
-}
-
-
-/* Body background */
-body {
-    background-color: #ffff;
 }
 
 /* Teaser images container */
@@ -97,29 +78,17 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-top: 20px;
 }
 
-/* Individual teaser images */
 .image-container img {
     width: 15%;
     border: 15px solid #d8b9d3;
     border-radius: 5px;
-}
-
-/* Image container layout */
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-/* Image hover effect */
-.image-container img {
     max-width: 30%;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Tooltip for image titles */
 .image-container img::after {
     content: attr(data-title);
     position: absolute;
@@ -136,12 +105,10 @@ body {
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Tooltip visibility on hover */
 .image-container img:hover::after {
     opacity: 1;
 }
 
-/* Footer styling */
 .footer {
     background-color: #343a40;
     color: #fff;
@@ -166,39 +133,18 @@ body {
 }
 
 /* Navbar and Footer customization */
-/* Navbar customization */
-.navbar {
-    background-color: #d3d3d3;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: black;
-}
-
-/* Footer customization */
-.footer {
-    background-color: #d3d3d3;
-    color: black;
-}
-
-/* Navbar customization */
 .navbar.navbar-expand-lg.navbar-dark .navbar-brand,
 .navbar.navbar-expand-lg.navbar-dark .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     color: black;
-    /* Set the color for navbar links */
 }
 
 .navbar.navbar-expand-lg.navbar-dark {
     background-color: #f8f9fa !important;
-    /* Very light grey color for the navbar */
 }
 
-/* Footer customization */
 .footer {
     background-color: #f8f9fa !important;
-    /* Very light grey color for the footer */
     color: black;
-    /* Set the color for footer text */
 }
