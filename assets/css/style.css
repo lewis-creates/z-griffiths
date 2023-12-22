@@ -7,7 +7,7 @@
 
 .navbar-brand.increased-font-size {
     font-size: 40px;
-    /* Your preferred font size */
+
 }
 
 /* Navbar and Footer customization */
@@ -28,7 +28,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ff8c00;
+    color: pink;
 }
 
 .cover-image {
@@ -83,10 +83,11 @@
 
 .image-container img {
     width: 15%;
-    border: 15px solid #d8b9d3;
+    border: 5px solid black;
     border-radius: 5px;
     max-width: 30%;
     transition: transform 0.3s ease-in-out;
+    position: relative;
 }
 
 .image-container img::after {
@@ -120,12 +121,12 @@
 }
 
 .social-icons a {
-    color: #fff;
+    color: black;
     transition: color 0.3s ease-in-out;
 }
 
 .social-icons a:hover {
-    color: #ff8c00;
+    color: pink;
 }
 
 .fa-copyright {
