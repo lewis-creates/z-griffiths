@@ -25,11 +25,14 @@
 /* Navbar hover effect */
 .navbar-nav .nav-item .nav-link {
     transition: color 0.3s ease-in-out;
+    color: black;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
     color: pink;
+
 }
+
 
 .cover-image {
     height: 250px;
@@ -142,10 +145,10 @@
 }
 
 .navbar.navbar-expand-lg.navbar-dark {
-    background-color: #f8f9fa !important;
+    background-color: #f8f9fa;
 }
 
 .footer {
-    background-color: #f8f9fa !important;
+    background-color: #f8f9fa;
     color: black;
 }
