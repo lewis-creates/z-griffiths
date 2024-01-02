@@ -1,35 +1,86 @@
-/* Navbar styles */
-.navbar-brand,
-.navbar-nav .nav-link {
+/* Body */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffff;
+    clear: both;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Header */
+
+header {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-weight: 600;
+    min-height: 60px;
+    color: #000000;
+    background-color: #E0E0E0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.navbar-brand.increased-font-size {
-    font-size: 40px;
+/* Site title styling */
+#title {
+    float: left;
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+/* Main navigation menu styling */
+
+#navbar {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main navigation menu list styling */
+
+#navbar li {
+    display: inline;
+    padding: 15px;
 
 }
 
-/* Navbar and Footer customization */
-.navbar,
-.navbar-dark .navbar-nav .nav-link {
-    background-color: #d3d3d3;
-    color: black;
+/* Main navigation menu links styling */
+
+#navbar a {
+    color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 10px 15px;
 }
+
+/* Main navigation menu links interactivity styling */
+#navbar a:hover {
+    background-color: #FF69B4;
+    border-radius: 5px;
+    color: white;
+
+}
+
+/* Main navigation menu links styling to show which is active */
+.active {
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 
 .footer {
     background-color: #d3d3d3;
     color: black;
-}
-
-/* Navbar hover effect */
-.navbar-nav .nav-item .nav-link {
-    transition: color 0.3s ease-in-out;
-    color: black;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: pink;
 }
 
 .cover-image {
@@ -109,44 +160,4 @@
 
 .image-container img:hover::after {
     opacity: 1;
-}
-
-.footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.social-icons {
-    margin-bottom: 20px;
-}
-
-.social-icons a {
-    color: black;
-    transition: color 0.3s ease-in-out;
-}
-
-.social-icons a:hover {
-    color: pink;
-}
-
-.fa-copyright {
-    margin-right: 5px;
-}
-
-/* Navbar and Footer customization */
-.navbar.navbar-expand-lg.navbar-dark .navbar-brand,
-.navbar.navbar-expand-lg.navbar-dark .navbar-nav .nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    color: black;
-}
-
-.navbar.navbar-expand-lg.navbar-dark {
-    background-color: #f8f9fa;
-}
-
-.footer {
-    background-color: #f8f9fa;
-    color: black;
 }
