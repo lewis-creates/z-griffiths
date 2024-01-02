@@ -63,6 +63,7 @@ header {
 }
 
 /* Main navigation menu links interactivity styling */
+
 #navbar a:hover {
     background-color: #FF69B4;
     border-radius: 5px;
@@ -71,17 +72,35 @@ header {
 }
 
 /* Main navigation menu links styling to show which is active */
+
 .active {
     background-color: #D3D3D3;
     border-radius: 5px;
     padding: 2px;
 }
 
+/* Footer */
 
 .footer {
-    background-color: #d3d3d3;
-    color: black;
+    background-color: #E0E0E0;
+    color: #000000;
+    text-align: center;
+    min-height: 40px;
+    padding: 20px 0;
 }
+
+/* Footer social icons styling */
+
+.social-icons a {
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #FF69BF;
+    border-radius: 5px;
+}
+
 
 .cover-image {
     height: 250px;
