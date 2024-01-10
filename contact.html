@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,99 +11,137 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@300&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Title -->
     <title>Zoe Griffiths Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Site header including Nav links -->
 
     <header>
-        <a id="title" href="index.html">
-            <h1>Zoe Griffiths</h1>
-        </a>
-        <nav>
-            <ul id="navbar">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" class="active">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <a id="title" href="index.html">
+        <h1>Zoe Griffiths</h1>
+      </a>
+      <nav>
+        <ul id="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="gallery.html" class="active">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Cover image section -->
     <div class="cover-image">
-        <!-- Cover images -->
-        <img src="assets/images/paint.brush.jpg" alt="An image of paint brushes" />
-        <img src="assets/images/paint.brush.jpg" alt="An image of paint brushes" />
+      <!-- Cover images -->
+      <img
+        src="assets/images/paint.brush.jpg"
+        alt="An image of paint brushes"
+      />
+      <img
+        src="assets/images/paint.brush.jpg"
+        alt="An image of paint brushes"
+      />
     </div>
 
     <!-- Bio section part 1 -->
     <div class="bio-part-1">
-        <p>
-            <!-- Bio part 1 content -->
-            The official portfolio of Zoe Griffiths
-        </p>
+      <p>
+        <!-- Bio part 1 content -->
+        The official portfolio of Zoe Griffiths
+      </p>
     </div>
-
-    <!-- Gallery Images -->
-    <div class="image-container gallery-images">
-        <!-- Teaser images -->
-        <img src="assets/images/blonde.jpg" alt="An image of a painting of a blonde woman" />
-        <img src="assets/images/stencil.jpg" alt="An image of painting with a face in a stencil style" />
-        <img src="assets/images/big.face.jpg" alt="An image of painting with a large face" />
-        <img src="assets/images/tw.face.jpg" alt="An image of painting with abstract colours and two large faces" />
-        <img src="assets/images/two.p.jpg" alt="An image of painting with two nude bodies" />
-    </div>
-    <div class="image-separator"></div>
-    <div class="image-container gallery-images">
-        <img src="assets/images/purple.jpg" alt="An image of painting with a purple background and curly lines" />
-        <img src="assets/images/real.cartoon.jpg" alt="An image of painting with cartoon faces" />
-        <img src="assets/images/red.mouth.jpg" alt="An image of painting of a face with red lips" />
-        <img src="assets/images/space.JPG" alt="An image of painting of a face with red lips" />
-        <img src="assets/images/faint.face.jpg" alt="An image of painting with a faint face in the background" />
-    </div>
-
+    <section class="contact-form">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="post" action="send_message.php">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer section -->
     <footer class="footer">
-        <div class="container text-center">
-            <!-- Social Icons -->
-            <div class="social-icons">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram fa-3x mx-2"></i>
-                </a>
-                <a href="https://twitter.com/" target="_blank">
-                    <i class="fab fa-twitter fa-3x mx-2"></i>
-                </a>
-                <a href="https://www.tiktok.com/" target="_blank">
-                    <i class="fab fa-tiktok fa-3x mx-2"></i>
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fab fa-linkedin fa-3x mx-2"></i>
-                </a>
-            </div>
-            <!-- Copyright -->
-            <p class="copyright">
-                <i class="fas fa-copyright"></i> Zoe Griffiths 2024
-            </p>
+      <div class="container text-center">
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fa-3x mx-2"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter fa-3x mx-2"></i>
+          </a>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <i class="fab fa-tiktok fa-3x mx-2"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin fa-3x mx-2"></i>
+          </a>
         </div>
+        <!-- Copyright -->
+        <p class="copyright">
+          <i class="fas fa-copyright"></i> Zoe Griffiths 2024
+        </p>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
+  </body>
 </html>
