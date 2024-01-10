@@ -207,6 +207,11 @@ header {
     .gallery-images img {
         width: calc(33.33% - 20px);
     }
+        .image-container img {
+            width: 30%;
+            max-width: 100%;
+            margin: 10px;
+        }
 }
 
 .image-separator {
