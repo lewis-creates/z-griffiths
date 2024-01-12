@@ -148,6 +148,50 @@ header {
     border-radius: 0;
 }
 
+/* Teaser images */
+.teaser-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Teaser image style */
+.teaser-images img {
+    height: 250px;
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.teaser-images img::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.teaser-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.teaser-images img:hover::after {
+    opacity: 1;
+}
+
 /* Teaser images container */
 .image-container {
     display: flex;
