@@ -157,10 +157,10 @@ header {
 }
 
 .image-container img {
-    width: 15%;
+    height: 150px;
     border: 5px solid black;
     border-radius: 5px;
-    max-width: 30%;
+    object-fit: cover;
     transition: transform 0.3s ease-in-out;
     position: relative;
 }
@@ -203,6 +203,9 @@ header {
 /* Gallery image style */
 .gallery-images img {
     width: calc(20% - 20px);
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
     margin: 10px;
 }
 
