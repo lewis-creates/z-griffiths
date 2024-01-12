@@ -2,25 +2,20 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffff;
-    clear: both;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
-
-
 /* Header */
-
 header {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     min-height: 60px;
     color: #000000;
     background-color: #E0E0E0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 /* Site title styling */
@@ -34,26 +29,21 @@ header {
 }
 
 /* Main navigation menu styling */
-
 #navbar {
     float: right;
     list-style-type: none;
     margin-right: 20px;
     letter-spacing: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 /* Main navigation menu list styling */
-
 #navbar li {
     display: inline;
     padding: 15px;
-
 }
 
 /* Main navigation menu links styling */
-
 #navbar a {
     color: inherit;
     font-size: 30px;
@@ -63,16 +53,13 @@ header {
 }
 
 /* Main navigation menu links interactivity styling */
-
 #navbar a:hover {
     background-color: #FF69B4;
     border-radius: 5px;
     color: white;
-
 }
 
 /* Main navigation menu links styling to show which is active */
-
 .active {
     background-color: #D3D3D3;
     border-radius: 5px;
@@ -80,18 +67,15 @@ header {
 }
 
 /* Footer */
-
 .footer {
     background-color: #E0E0E0;
     color: #000000;
     text-align: center;
     padding: 2px 0;
     margin-top: auto;
-
 }
 
 /* Footer social icons styling */
-
 .social-icons {
     margin-top: 10px;
 }
@@ -106,6 +90,7 @@ header {
     border-radius: 5px;
 }
 
+/* Cover image section */
 .cover-image {
     height: 250px;
     width: 100%;
@@ -142,8 +127,7 @@ header {
     letter-spacing: 2px;
     word-spacing: 6px;
     line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border: none;
     border-radius: 0;
 }
@@ -192,51 +176,6 @@ header {
     opacity: 1;
 }
 
-/* Teaser images container */
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.image-container img {
-    height: 150px;
-    border: 5px solid black;
-    border-radius: 5px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-    position: relative;
-}
-
-.image-container img::after {
-    content: attr(data-title);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 8px 12px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-size: 14px;
-    border-radius: 4px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.image-container img:hover {
-    transform: scale(1.1);
-
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-
-}
-
-
-.image-container img:hover::after {
-    opacity: 1;
-}
-
 /* Gallery image container */
 .gallery-images {
     display: flex;
@@ -259,6 +198,10 @@ header {
         width: calc(33.33% - 20px);
     }
 
+    .teaser-images img {
+        width: 30%;
+    }
+
     .image-container img {
         width: 30%;
         max-width: 100%;
@@ -268,9 +211,7 @@ header {
 
 .image-separator {
     border-bottom: 2px solid black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    margin: 20px 0;
 }
 
 /* Custom styles for the Bootstrap contact form */
@@ -302,22 +243,10 @@ button:hover {
     color: #fff;
 }
 
-
 /* Footer Spacing */
 html {
     height: 100%;
 }
-
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #ffff;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
 
 /* YouTube video section styling */
 .youtube-video {
@@ -330,8 +259,7 @@ body {
     letter-spacing: 2px;
     word-spacing: 6px;
     line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border: none;
     border-radius: 0;
 }
