@@ -303,3 +303,11 @@ html {
 .contact-form {
     margin-bottom: 100px;
 }
+
+.confirmation-container {
+    min-height: calc(100vh - 250px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
