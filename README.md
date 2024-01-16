@@ -6,6 +6,13 @@ View the live project here.
 
 This is the main marketing website for an artist. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
 
+# Site Info
+
+This website functions as a comprehensive portfolio for an artist, offering clear insights into the creator's background alongside a showcase of their artistic endeavors. The inclusion of a dedicated contact page facilitates direct communication with the artist, catering to potential commissioners and fellow artists who might be interested in collaboration. The website provides a customisable platform beyond the constraints of standard formats on platforms like Instagram or TikTok. 
+
+The design philosophy prioritises simplicity, opting for a minimalistic approach and subtle colour themes to ensure the users attention is solely on the artists work. The overarching goal is to offer visitors pertinent information about the artist, an immersive exploration of their portfolio and an open invitation for communication if they wish to connect.
+
+
 # User Experience (UX)
 
 ## User stories
