@@ -34,7 +34,7 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 ### Colour Scheme
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+In crafting the colour scheme for this website, a thoughtful selection of colours was made to ensure a sleek and visually appealing presentation. The chosen palette, comprising of soft greys and whites, was curated to strike a harmonious balance. The use of light greys provides a clean and modern backdrop, allowing the vibrant artworks to take center stage without distraction.
 
 ### Typography
 
