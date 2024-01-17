@@ -30,6 +30,8 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 ## Design
 
+![screenshot of colour palette](/assets/images/colours.jpg)
+
 ### Colour Scheme
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
