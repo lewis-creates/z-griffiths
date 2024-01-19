@@ -152,10 +152,19 @@ The page consists of four pages (plus the confirmation page).
 - The links are hover responsive to increase user feedback and also display which page is active to decrease chances of confusion;
 
 ![Navbar](docs/features/navbar-hover.png)
+<br>
+*Here, for example, The "Home" is highlighted, this is to display which page is active to decrease the chances of confusion.*
 
-- Responsive design adaptable to various screen sizes.
-- Interactive gallery showcasing artworks.
-- Social media intergration to connect with the artist's community.
+<br>
+<br>
+
+### Landing Page Image
+
+- Featured on all four pages;
+- Catches the users attention;
+- Lets the users understand what the page is about;
+
+
 
 ### Frameworks, Libraries & Programs Used
 
