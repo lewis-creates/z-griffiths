@@ -15,27 +15,31 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 ## Project Goals
 
 ### User Goals
-- Discovering a captivating online platform for exploring Zoe Griffiths' art portfolio. 
+
+- Discovering a captivating online platform for exploring Zoe Griffiths' art portfolio.
 - Exploring avenues to contact the artist for inquiries or purchases.
 - Accessing information about the artist.
 
 ### Site Owner Goals
+
 - Attracting and expanding the audience for the artists portfolio.
 - Effectively promoting the artists work and the online platform.
 - Facilitating communication between the artist and potential clients.
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
 
 ## User Experience
 
 ### Target Audience
+
 - Art lovers looking for inspiration.
 - Enthusiasts and collectors of unique artwork.
 - Potential buyers.
 - Fellow artists looking to collaborate.
 
 ### User Requirements and Expectations
+
 - A simple, sleek and intuitive navigation system.
 - Links and functions that work as expected.
 - A visually appealing and responsive website.
@@ -44,21 +48,24 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 ### User Stories
 
 #### First Time User
+
 1. As a first time user, I want to know quickly what the website is about.
 2. As a first time user, I want to easily understand how to navigate the website.
 3. As a first time user, I want to locate their social media links to explore more artwork.
 
 #### Returning User
+
 1. As a returning user, I want to explore the gallery to view new artwork.
 2. As a returning user, I want to contact the artist for commissioning artwork or ask questions.
 3. As a returning user, I want to find links to the artist's social media platforms to follow their updates.
-<br>
-<br>
-<br>
+   <br>
+   <br>
+   <br>
 
 ## Design
 
 ### Design Choices
+
 The website has been designed choosing a minimal style, clear and user friendly. Borders - when present - are neat and light. Pages are not filled with unnecessary information. The overall design choice is subtle and light.
 
 <img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%"
@@ -75,14 +82,20 @@ The typography of the website embodies a basic, modern and sleek aesthetic, ench
 
 Visuals play a crucial role, particularly showcasing artworks in high quality to captivate the audience. Emphasis is on showcasing a diverse range of art pieces through the gallery section.
 
-### Structure 
+### Structure
+
 The website is easy to navigate, essential, hence user friendly. It consists of four separate pages:
 
 #### Homepage
-A landing page with two text containers and a few teaser images. 
+
+A landing page with two text containers and a few teaser images.
+
 #### Gallery
+
 A page with a list of images of the artists work.
-#### Contact 
+
+#### Contact
+
 A page with a contact form for people to get in touch with the artist.
 
 ## Wireframes
@@ -134,9 +147,10 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 <br>
 <br>
 
-## Technologies Used 
+## Technologies Used
 
-### Languages 
+### Languages
+
 - HTML
 - CSS
 
@@ -153,7 +167,7 @@ The page consists of four pages (plus the confirmation page).
 
 ![Navbar](docs/features/navbar-hover.png)
 <br>
-*Here, for example, The "Home" is highlighted, this is to display which page is active to decrease the chances of confusion.*
+_Here, for example, The "Home" is highlighted, this is to display which page is active to decrease the chances of confusion._
 
 <br>
 <br>
@@ -161,10 +175,54 @@ The page consists of four pages (plus the confirmation page).
 ### Landing Page Image
 
 - Featured on all four pages;
-- Catches the users attention;
+- Catches the users attention due to its animation;
 - Lets the users understand what the page is about;
 
+![Landing](docs/features/landing-image.png)
+<br>
 
+### Biography Paragraphs & Teaser Images
+
+- The content on the homepage consists of paragraphs of information about the artist split up with teaser images.
+- The bio paragraphs are intended to teach the visitor about the artist and their background. It also serves as an outline of the site purpose and what the visitor can expect.
+- Teaser images are inserted with the goal of enticing the visitor to explore the gallery section, where they can see these in more detail.
+
+![Bio](docs/features/bio-teaser.png)
+<br>
+
+### Social Media Links
+
+- The bottom of all pages contains links to Instagram, Twitter, TikTok and LinkedIn, where further work is hosted.
+- These include hover responsivness to improve user feedback.
+
+![Social](docs/features/social-icons.png)
+<br>
+
+### Gallery
+
+- The gallery will show examples of visual work completed by the artist.
+- All images have some dark padding around the edges, intended to frame the images against the background.
+- Incorporated the <hr> rule in the gallery section to enhance the visual appeal by creating a clear separation between images, providing a structured and aesthetically pleasing layout.
+
+![Gallery](docs/features/gallery-line.png)
+<br>
+
+### Contact Form
+
+- The contact form is on the 'contact' page and provides an opportunity for visitors to get in touch with the artist, allowing space for them to leave name, email address and a message.
+- The form also contains required fields so the visitor cannot submit an empty form.
+- The email input must contain a properly formatted email address.
+
+![Contact](docs/features/contact-form.png)
+<br>
+
+### Form Submission Page
+
+- This pages confirms with the visitor that their form has been submitted.
+- It also lets them know they will get a response and they can navigate back using the nav bar in the header.
+
+![Submission](docs/features/form-message.png)
+<br>
 
 ### Frameworks, Libraries & Programs Used
 
