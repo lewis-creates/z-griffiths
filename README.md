@@ -38,7 +38,7 @@ In crafting the colour scheme for this website, a thoughtful selection of colour
 
 ### Typography
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The typography of the website embodies a basic, modern and sleek aesthetic, enchancing the overall visual appeal. The site predominantly utilizes the clean and contemporary Roboto font for body text and various sections, maintaining readability across devices. The header features Roboto with a weight of 600, ensuring a distinct appearance, while navigation menu links, set in Roboto with a weight of 500, offer a balanced and easily navigable experience. Consistency in font choices, letter-spacing, and line-height is evident in bio sections, contributing to a well-organised presentation.
 
 ### Imagery
 
