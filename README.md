@@ -49,10 +49,17 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 3. As a first time user, I want to locate their social media links to explore more artwork.
 
 #### Returning User
-
-
+1. As a returning user, I want to explore the gallery to view new artwork.
+2. As a returning user, I want to contact the artist for commissioning artwork or ask questions.
+3. As a returning user, I want to find links to the artist's social media platforms to follow their updates.
+<br>
+<br>
+<br>
 
 ## Design
+
+### Design Choices
+The website has been designed choosing a minimal style, clear and user friendly. Borders - when present - are neat and light. Pages are not filled with unnecessary information. The overall design choice is subtle and light.
 
 <img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%"
 
@@ -67,6 +74,7 @@ The typography of the website embodies a basic, modern and sleek aesthetic, ench
 ### Imagery
 
 Visuals play a crucial role, particularly showcasing artworks in high quality to captivate the audience. Emphasis is on showcasing a diverse range of art pieces through the gallery section.
+
 
 ## Wireframes
 
