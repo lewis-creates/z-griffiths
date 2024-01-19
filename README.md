@@ -30,7 +30,7 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 ## Design
 
-<img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="40%">
+<img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%">
 
 ### Colour Scheme
 
