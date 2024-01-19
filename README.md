@@ -12,9 +12,36 @@ This website functions as a comprehensive portfolio for an artist, offering clea
 
 The design philosophy prioritises simplicity, opting for a minimalistic approach and subtle colour themes to ensure the users attention is solely on the artists work. The overarching goal is to offer visitors pertinent information about the artist, an immersive exploration of their portfolio and an open invitation for communication if they wish to connect.
 
-# User Experience (UX)
+## Project Goals
 
-## User stories
+### User Goals
+- Discovering a captivating online platform for exploring Zoe Griffiths' art portfolio. 
+- Exploring avenues to contact the artist for inquiries or purchases.
+- Accessing information about the artist.
+
+### Site Owner Goals
+- Attracting and expanding the audience for the artists portfolio.
+- Effectively promoting the artists work and the online platform.
+- Facilitating communication between the artist and potential clients.
+<br>
+<br>
+<br>
+
+## User Experience
+
+### Target Audience
+- Art lovers looking for inspiration.
+- Enthusiasts and collectors of unique artwork.
+- Potential buyers.
+- Fellow artists looking to collaborate.
+
+### User Requirements and Expectations
+- A simple, sleek and intuitive navigation system.
+- Links and functions that work as expected.
+- A visually appealing and responsive website.
+- A good level of accessibility.
+
+### User Stories
 
 ### First Time Visitor Goals
 
