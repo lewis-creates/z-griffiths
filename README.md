@@ -47,12 +47,18 @@ Visuals play a crucial role, particularly showcasing artworks in high quality to
 ## Wireframes
 
 I used [Balsamiq](http://balsamiq.com/) to sketch the wireframes and start having a general idea of how the website would have looked like. There have been deviations from the original ideas, such as:
+
 - the use of a testimonials and reviews section;
 - using an image of the artist on the contact page;
 - the position of the social media icons.
 
 Below, a showcase of the desktop, tablet and mobile wireframes.
 
+#### Desktop Version
+
+<details><summary>Homepage</summary>
+<img src="docs/Wireframes/home-desktop.png">
+</details>
 
 - [Home Page Wireframe - View](link)
 - [Mobile Wireframe - View](link)
