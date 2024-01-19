@@ -30,7 +30,7 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 ## Design
 
-<img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%">
+<img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%"
 
 ### Colour Scheme
 
@@ -57,7 +57,37 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 #### Desktop Version
 
 <details><summary>Homepage</summary>
-<img src="docs/Wireframes/home-desktop.png">
+<img src="/docs/Wireframes/home-desktop.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="/docs/Wireframes/gallery-desktop.png">
+</details>
+<details><summary>Contact</summary>
+<img src="/docs/Wireframes/contact-desktop.png">
+</details>
+
+#### Tablet Version
+
+<details><summary>Homepage</summary>
+<img src="/docs/Wireframes/home-tablet.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="/docs/Wireframes/gallery-tablet.png">
+</details>
+<details><summary>Contact</summary>
+<img src="/docs/Wireframes/contact-tablet.png">
+</details>
+
+#### Smartphone Version
+
+<details><summary>Homepage</summary>
+<img src="/docs/Wireframes/home-smartphone.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="/docs/Wireframes/gallery-smartphone.png">
+</details>
+<details><summary>Contact</summary>
+<img src="/docs/Wireframes/contact-smartphone.png">
 </details>
 
 - [Home Page Wireframe - View](link)
