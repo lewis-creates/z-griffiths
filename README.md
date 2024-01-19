@@ -43,17 +43,14 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 ### User Stories
 
-### First Time Visitor Goals
+#### First Time User
+1. As a first time user, I want to know quickly what the website is about.
+2. As a first time user, I want to easily understand how to navigate the website.
+3. As a first time user, I want to locate their social media links to explore more artwork.
 
-- **As a First Time Visitor**, I want to easily understand the main purpose of the site and learn more about the artist and their work.
-- **As a First Time Visitor**, I want to be able to easily navigate throughout the site to find content and view the artist's work.
-- **As a First Time Visitor**, I want to locate their social media links to explore more artwork and engage with the artist's community.
+#### Returning User
 
-### Returning Visitor Goals
 
-- **As a Returning Visitor**, I want to explore the gallery section to view new artwork.
-- **As a Returning Visitor**, I want to contact the artist for commissioning artwork or ask questions.
-- **As a Returning Visitor**, I want to find links to the artist's social media platforms to follow their updates and new artworks.
 
 ## Design
 
