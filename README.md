@@ -75,6 +75,15 @@ The typography of the website embodies a basic, modern and sleek aesthetic, ench
 
 Visuals play a crucial role, particularly showcasing artworks in high quality to captivate the audience. Emphasis is on showcasing a diverse range of art pieces through the gallery section.
 
+### Structure 
+The website is easy to navigate, essential, hence user friendly. It consists of four separate pages:
+
+#### Homepage
+A landing page with two text containers and a few teaser images. 
+#### Gallery
+A page with a list of images of the artists work.
+#### Contact 
+A page with a contact form for people to get in touch with the artist.
 
 ## Wireframes
 
@@ -125,6 +134,12 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 <br>
 <br>
 
+## Technologies Used 
+
+### Languages 
+- HTML
+- CSS
+
 ## Features
 
 The page consists of four pages (plus the confirmation page).
@@ -141,13 +156,6 @@ The page consists of four pages (plus the confirmation page).
 - Responsive design adaptable to various screen sizes.
 - Interactive gallery showcasing artworks.
 - Social media intergration to connect with the artist's community.
-
-## Technologies Used
-
-### Languages Used
-
-- HTML5
-- CSS
 
 ### Frameworks, Libraries & Programs Used
 
