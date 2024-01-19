@@ -104,6 +104,7 @@ header {
     animation: scrollImage 10s linear infinite;
 }
 
+/* Hero image animation */
 @keyframes scrollImage {
     0% {
         transform: translateY(0);
@@ -196,6 +197,7 @@ header {
     position: relative;
     object-fit: cover;
 }
+
 .gallery-images img::after {
     content: attr(data-title);
     position: absolute;
