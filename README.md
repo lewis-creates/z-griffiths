@@ -34,6 +34,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
       - [Smartphone Version](#smartphone-version)
   - [Technologies Used](#technologies-used)
     - [Languages](#languages)
+    - [Frameworks \& Tools](#frameworks--tools)
   - [Features](#features)
     - [Navigation Bar](#navigation-bar)
     - [Landing Page Image](#landing-page-image)
@@ -214,6 +215,9 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 - HTML
 - CSS
 
+### Frameworks & Tools
+- [GitHub](https://github.com/)
+- {Balsmiq}()
 ## Features
 
 The page consists of four pages (plus the confirmation page).
@@ -296,8 +300,8 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 
 ## Testing
 
-- W3C Markup Validator - [Results](link)
-- W3C CSS Validator - [Results](link)
+- W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewis-creates.github.io%2Fz-griffiths%2F)
+- W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewis-creates.github.io%2Fz-griffiths&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Testing User Stories from User Experience (UX) Section
 
