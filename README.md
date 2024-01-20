@@ -1,7 +1,62 @@
 # Zoe Griffiths Art Page
 
-View the live project here.
+![Mockup image](docs/Wireframes/mockup-image.png)
 
+View the live project [here](https://lewis-creates.github.io/z-griffiths/).
+
+## Table of Contents
+
+- [Zoe Griffiths Art Page](#zoe-griffiths-art-page)
+  - [Table of Contents](#table-of-contents)
+- [Site Info](#site-info)
+  - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+      - [First Time User](#first-time-user)
+      - [Returning User](#returning-user)
+  - [Design](#design)
+    - [Design Choices](#design-choices)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Structure](#structure)
+      - [Homepage](#homepage)
+      - [Gallery](#gallery)
+      - [Contact](#contact)
+      - [Confirmation Page](#confirmation-page)
+  - [Wireframes](#wireframes)
+      - [Desktop Version](#desktop-version)
+      - [Tablet Version](#tablet-version)
+      - [Smartphone Version](#smartphone-version)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+  - [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+    - [Landing Page Image](#landing-page-image)
+    - [Biography Paragraphs \& Teaser Images](#biography-paragraphs--teaser-images)
+    - [Social Media Links](#social-media-links)
+    - [Gallery](#gallery-1)
+    - [Contact Form](#contact-form)
+    - [Form Submission Page](#form-submission-page)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent User Goals](#frequent-user-goals)
+  - [Further Testing](#further-testing)
+  - [Known Bugs](#known-bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+    
 ---
 
 This is the main marketing website for an artist. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
@@ -97,6 +152,10 @@ A page with a list of images of the artists work.
 #### Contact
 
 A page with a contact form for people to get in touch with the artist.
+
+#### Confirmation Page
+
+A page with a confirmation message after submission of the contact form.
 
 ## Wireframes
 
