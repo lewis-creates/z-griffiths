@@ -225,7 +225,7 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 
 ## Features
 
-The page consists of four pages (plus the confirmation page).
+The page consists of three pages (plus the confirmation page).
 
 ### Navigation Bar
 
