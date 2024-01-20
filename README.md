@@ -217,7 +217,12 @@ Below, a showcase of the desktop, tablet and mobile wireframes.
 
 ### Frameworks & Tools
 - [GitHub](https://github.com/)
-- {Balsmiq}()
+- [Balsamiq](https://balsamiq.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+- [YouTube](https://www.youtube.com/)
+- [Bootstrap](https://getbootstrap.com/)
+
 ## Features
 
 The page consists of four pages (plus the confirmation page).
@@ -297,6 +302,7 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 <br>
 
 ### Frameworks, Libraries & Programs Used
+
 
 ## Testing
 
