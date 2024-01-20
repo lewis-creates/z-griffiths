@@ -37,6 +37,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
   - [Features](#features)
     - [Navigation Bar](#navigation-bar)
     - [Landing Page Image](#landing-page-image)
+    - [Hover On Image](#hover-on-image)
     - [Biography Paragraphs \& Teaser Images](#biography-paragraphs--teaser-images)
     - [Social Media Links](#social-media-links)
     - [Gallery](#gallery-1)
@@ -56,7 +57,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
     - [Content](#content)
     - [Media](#media)
   - [Acknowledgements](#acknowledgements)
-    
+
 ---
 
 This is the main marketing website for an artist. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
@@ -123,7 +124,7 @@ The design philosophy prioritises simplicity, opting for a minimalistic approach
 
 The website has been designed choosing a minimal style, clear and user friendly. Borders - when present - are neat and light. Pages are not filled with unnecessary information. The overall design choice is subtle and light.
 
-<img src="/assets/images/colours.jpg.png" alt="Screenshot of colour palette" width="60%"
+![Colour](docs/features/colours.jpg.png)
 
 ### Colour Scheme
 
@@ -238,6 +239,14 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 - Lets the users understand what the page is about;
 
 ![Landing](docs/features/landing-image.png)
+<br>
+
+### Hover On Image
+
+- The teaser images and the gallery images have a hover expand animation.
+- This is to bring more attention to the image
+
+![Hover](docs/features/hover-show.png)
 <br>
 
 ### Biography Paragraphs & Teaser Images
