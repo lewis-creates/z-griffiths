@@ -44,8 +44,9 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
     - [Gallery](#gallery-1)
     - [Contact Form](#contact-form)
     - [Form Submission Page](#form-submission-page)
-    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-  - [Testing](#testing)
+  - [Validation](#validation)
+    - [HTML \& CSS Validation](#html--css-validation)
+    - [Accessiblity](#accessiblity)
   - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
@@ -301,13 +302,16 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 ![Submission](docs/features/form-message.png)
 <br>
 
-### Frameworks, Libraries & Programs Used
+## Validation
 
-
-## Testing
+### HTML & CSS Validation
 
 - W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewis-creates.github.io%2Fz-griffiths%2F)
 - W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewis-creates.github.io%2Fz-griffiths&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<br>
+
+### Accessiblity
+The WABE WebAIM web accessibility evaluation tool was used to ensure the webiste met high accessibility standards. 
 
 ## Testing User Stories from User Experience (UX) Section
 
