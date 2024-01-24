@@ -44,6 +44,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
     - [Gallery](#gallery-1)
     - [Contact Form](#contact-form)
     - [Form Submission Page](#form-submission-page)
+    - [Video](#video)
   - [Validation](#validation)
     - [HTML \& CSS Validation](#html--css-validation)
     - [Accessiblity](#accessiblity)
@@ -300,6 +301,19 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 - It also lets them know they will get a response and they can navigate back using the nav bar in the header.
 
 ![Submission](docs/features/form-message.png)
+<br>
+
+### Video
+
+- Embedded YouTube video that seamlessly integrates into the website, offering an immersive multimedia experience. 
+- Allows visiors to take control of tehir experience by initiating the playback of the embedded video, ensuring a user-centric approach to content consumption.
+- Enchances the site's richness with a dynamic YouTube video component, adding visual appeal.
+
+![Video](docs/features/youtube-one.png)
+<br>
+
+![Controls](docs/features/youtube-controls.png)
+_Here, for example, you can see the controls, with no autoplay._
 <br>
 
 ## Validation
