@@ -347,6 +347,27 @@ Google Lighthouse was used to test performance, accessibility, best practices an
 | Landing page image | Land on the Homepage, first visible image | Seeing the image of paintbrushes, letting you know it is a art page | Works as expected |
 | Bio paragraph | Land on the Homepage, navigate to the bio paragraph | Read an introductive text about the website | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/landing-image-bio-png">
+</details>
+<br>
+
+2. As a first time user, I want to easily understand how to navigate the website.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Look and click/tap on the elements | Have a quick knowledge of the pages | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories-testing/nav-bar.png">
+</details>
+<br>
+
+1. As a first time user, I want to locate their social media links to explore more artwork.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Links | Navigate to the bottom of the page and locate the social media icons | Have a quick knowledge of the pages | Works as expected |
 
 
 - (Content)
