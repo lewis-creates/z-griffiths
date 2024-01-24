@@ -281,7 +281,7 @@ _Here, for example, The "Home" is highlighted, this is to display which page is 
 
 - The gallery will show examples of visual work completed by the artist.
 - All images have some dark padding around the edges, intended to frame the images against the background.
-- Incorporated the <hr> rule in the gallery section to enhance the visual appeal by creating a clear separation between images, providing a structured and aesthetically pleasing layout.
+- Incorporated the hr rule in the gallery section to enhance the visual appeal by creating a clear separation between images, providing a structured and aesthetically pleasing layout.
 
 ![Gallery](docs/features/gallery-line.png)
 <br>
