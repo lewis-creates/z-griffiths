@@ -334,6 +334,8 @@ Google Lighthouse was used to test performance, accessibility, best practices an
     - Optimise website performance by addressing render-blocking resources.
     - Enhance website loading performance by reducing unused CSS eliminate or defer styles not crucial for above-the-fold content, potentially saving significant bytes transferred over the network.
     - Some links do not have discernible names.
+- The links were changed to include aria-labels, this increased the accessibility to a perfect score.
+![Accessbility](docs/Testing/adjustment.png)
 
 ## Testing User Stories from User Experience (UX) Section
 
