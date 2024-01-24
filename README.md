@@ -48,10 +48,8 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
   - [Validation](#validation)
     - [HTML \& CSS Validation](#html--css-validation)
     - [Lighthouse Validation](#lighthouse-validation)
+    - [Browser Compatibility](#browser-compatibility)
   - [Testing User Stories](#testing-user-stories)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-  - [Further Testing](#further-testing)
   - [Known Bugs](#known-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -335,6 +333,17 @@ Google Lighthouse was used to test performance, accessibility, best practices an
     - Some links do not have discernible names.
 - The links were changed to include aria-labels, this increased the accessibility to a perfect score.
 ![Accessbility](docs/Testing/adjustment.png)
+<br>
+<br>
+
+### Browser Compatibility
+The website was tested on the following browsers:
+- Google Chrome;
+- Mozilla Firefox;
+- Safari;
+- Microsoft Edge.
+<br>
+<br>
 
 ## Testing User Stories
 
@@ -382,20 +391,23 @@ Google Lighthouse was used to test performance, accessibility, best practices an
 |-------------|------------|---------------------|-------------------|
 | Contact Form | Navigate to the contact page using the navbar, fill in the contact form | Form will be submitted, artist will be in touch | Works as expected |
 
-- (Content)
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/contact-user.png">
+</details>
+<br>
 
-### Returning Visitor Goals
+3. As a returning user, I want to find links to the artist's social media platforms to follow their updates.
 
-- (Content)
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Icons | Navigate to the bottom of any page, locate the icons | Link will take the user to the expected social media platform | Works as expected |
+| Video Player/YouTube Video | Locate the video on the contact page | User can navigate to the artist's YouTube channel from the player |
 
-### Frequent User Goals
-
-- (Content)
-
-## Further Testing
-
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-- (More details)
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/social-user-test.png">
+<img src="docs/user-stories-testing/controls-test.png">
+</details>
+<br>
 
 ## Known Bugs
 
