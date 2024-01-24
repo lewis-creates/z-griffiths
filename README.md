@@ -48,8 +48,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
   - [Validation](#validation)
     - [HTML \& CSS Validation](#html--css-validation)
     - [Lighthouse Validation](#lighthouse-validation)
-  - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
+  - [Testing User Stories](#testing-user-stories)
     - [Returning Visitor Goals](#returning-visitor-goals)
     - [Frequent User Goals](#frequent-user-goals)
   - [Further Testing](#further-testing)
@@ -337,9 +336,18 @@ Google Lighthouse was used to test performance, accessibility, best practices an
 - The links were changed to include aria-labels, this increased the accessibility to a perfect score.
 ![Accessbility](docs/Testing/adjustment.png)
 
-## Testing User Stories from User Experience (UX) Section
+## Testing User Stories
 
-### First Time Visitor Goals
+**First time user**
+
+1. As a first time user, I want to know quickly what the website is about.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Landing page image | Land on the Homepage, first visible image | Seeing the image of paintbrushes, letting you know it is a art page | Works as expected |
+| Bio paragraph | Land on the Homepage, navigate to the bio paragraph | Read an introductive text about the website | Works as expected |
+
+
 
 - (Content)
 
