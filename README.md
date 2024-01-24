@@ -50,7 +50,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
     - [Lighthouse Validation](#lighthouse-validation)
     - [Browser Compatibility](#browser-compatibility)
   - [Testing User Stories](#testing-user-stories)
-  - [Known Bugs](#known-bugs)
+  - [Fixed bugs](#fixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Code](#code)
@@ -409,15 +409,26 @@ The website was tested on the following browsers:
 </details>
 <br>
 
-## Known Bugs
+## Fixed bugs
 
-- (Content)
+| **Bug** | **Fix** |
+| --------| ------- |
+| Hover effect on image wouldn't work correctly | Removing bootstrap from the navbar seemed to fix this, I am unsure why this happened. |
+| Footer would not stick at the bottom of the page | Adjusted CSS properties, ensured proper spacing and used flex properties. |
+<br>
+<br>
 
 ## Deployment
-
-- GitHub Pages
-- Forking the GitHub Repository
-- Making a Local Clone
+The website was deployed using GitHub pages by following these steps:
+1. I went to the settings tab of my GitHub repository (created before);
+2. On the left-hand sidebar, in the code and automation section, I selected pages;
+3. Ensured "Source" was set to "Deploy from Branch", that "Main" branch is selected and that "Folder" is set to / (root);
+4. Under "Branch", click "Save";
+5. Then I went back to the code tab, waited a few minutes for the build to finish and refreshed my repository;
+6. On the right-hand side, in the "Enviroments" section, it has been possible to click on 'github-pages';
+7. Inside a frame titled "Active deployments" I saw the link of my deployed website.
+<br>
+<br>
 
 ## Credits
 
