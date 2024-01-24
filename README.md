@@ -363,12 +363,24 @@ Google Lighthouse was used to test performance, accessibility, best practices an
 </details>
 <br>
 
-1. As a first time user, I want to locate their social media links to explore more artwork.
+**Returning user**
+
+1. As a returning user, I want to explore the gallery to view new artwork.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Links | Navigate to the bottom of the page and locate the social media icons | Have a quick knowledge of the pages | Works as expected |
+| Gallery | Navigate to the gallery page using the navbar and see the images | Able to view artwork by the artist | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories-testing/user-gallery.png">
+</details>
+<br>
+
+2. As a returning user, I want to contact the artist for commissioning artwork or ask questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the contact page using the navbar, fill in the contact form | Form will be submitted, artist will be in touch | Works as expected |
 
 - (Content)
 
