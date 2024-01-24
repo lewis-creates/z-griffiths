@@ -47,7 +47,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
     - [Video](#video)
   - [Validation](#validation)
     - [HTML \& CSS Validation](#html--css-validation)
-    - [Accessiblity](#accessiblity)
+    - [Lighthouse Validation](#lighthouse-validation)
   - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
@@ -324,8 +324,15 @@ _Here, for example, you can see the controls, with no autoplay._
 - W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewis-creates.github.io%2Fz-griffiths&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 <br>
 
-### Accessiblity
-The WABE WebAIM web accessibility evaluation tool was used to ensure the webiste met high accessibility standards. 
+### Lighthouse Validation
+Google Lighthouse was used to test performance, accessibility, best practices and SEO (Search Engine Optimisation) of the website.
+
+[Lighthouse](docs/testing/Lighthouse-test-png)
+- Testing using Lighthouse tool in Chrome Developer tools provided a decent score but also suggested to improve:
+    - Properly sizing images and serving them in a next-gen format to decrease load time for users.
+    - Optimise website performance by addressing render-blocking resources.
+    - Enhance website loading performance by reducing unused CSS eliminate or defer styles not crucial for above-the-fold content, potentially saving significant bytes transferred over the network.
+    - Some links do not have discernible names.
 
 ## Testing User Stories from User Experience (UX) Section
 
