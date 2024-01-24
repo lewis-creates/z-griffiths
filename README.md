@@ -328,6 +328,7 @@ _Here, for example, you can see the controls, with no autoplay._
 Google Lighthouse was used to test performance, accessibility, best practices and SEO (Search Engine Optimisation) of the website.
 
 ![Lighthouse](docs/testing/Lighthouse-test-png)
+![Lighthouse2](docs/Testing/further-test.png)
 - Testing using Lighthouse tool in Chrome Developer tools provided a decent score but also suggested to improve:
     - Properly sizing images and serving them in a next-gen format to decrease load time for users.
     - Optimise website performance by addressing render-blocking resources.
