@@ -56,7 +56,7 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
 
 ---
 
-This is the main marketing website for an artist. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
+This is the main marketing website for an artist. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers and other artists.
 
 # Site Info
 
