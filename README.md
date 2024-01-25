@@ -53,10 +53,6 @@ View the live project [here](https://lewis-creates.github.io/z-griffiths/).
   - [Fixed bugs](#fixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
-    - [Code](#code)
-    - [Content](#content)
-    - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -431,19 +427,9 @@ The website was deployed using GitHub pages by following these steps:
 <br>
 
 ## Credits
-
-### Code
-
-- The full-screen hero image code came from this StackOverflow post.
-- Bootstrap4
-
-### Content
-
-- All content was written by the developer.
-- Psychological properties of colours text in the README.md was found [here](link).
-
-### Media
-
-- All Images were created by the developer.
-
-## Acknowledgements
+- The images and text used in the site are the artists own.
+- The icons used in the footer were taken from [Font Awesome](http://fontawesome.com/)
+- The contact form was made using bootstrap [Bootstrap](https://getbootstrap.com/)
+- Site responsivness visualised using [Am I Responsive](https://ui.dev/amiresponsive)
+- YouTube tutorials were used in crafting some of the html/css [YouTube](https://www.youtube.com/)
+- Coolors was used to help create the colours and contrast [Coolors](https://coolors.co/)
