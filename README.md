@@ -352,12 +352,12 @@ The website was tested on the following browsers:
 | Landing page image | Land on the Homepage, first visible image | Seeing the image of paintbrushes, letting you know it is a art page | Works as expected |
 | Bio paragraph | Land on the Homepage, navigate to the bio paragraph | Read an introductive text about the website | Works as expected |
 
-<details><summary>Screenshots</summary>
-<img src="docs/user-stories-testing/landing-image-bio-png">
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories-testing/landing-image-bio-user.png">
 </details>
 <br>
 
-2. As a first time user, I want to easily understand how to navigate the website.
+1. As a first time user, I want to easily understand how to navigate the website.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
